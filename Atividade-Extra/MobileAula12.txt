@@ -1,0 +1,18 @@
+Resumo aula 12 (19/05/2023) 
+
+- Fragmentos Android é uma atividade que se acopla com uma tela, numa atividade pode colocar vários fragmentos 
+
+- Atividade e fragmento possuem ciclos de vida
+ 
+- O fragmento é criado depois da ativdade 
+
+- A maneira que a tela é criada para atividade é a mesma para o fragmento 
+
+- Primeiro destruído o fragmento e após disso, a tela 
+
+- O fragmento pode ser reaproveitado 
+
+- Valor absoluto só é utilizado para imagem 
+
+- Res -> New -> AndroidResource Directory -> Menu
+
