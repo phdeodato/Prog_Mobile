@@ -16,3 +16,23 @@ Resumo aula 12 (19/05/2023)
 
 - Res -> New -> AndroidResource Directory -> Menu
 
+- Para construir um fragmento, usamos o padrão builder 
+
+- Permite que os fragmentos sejam criados de maneira uniforme 
+
+- Padroniza a passagem de parametros 
+
+- Companion Object: utilizado para criar função estática para a construção dos fragmentos 
+companion objetc {
+   @JvmStatic
+   fun newInstancte () = Tela1Fragment()
+}
+
+- Criar fragmento 
+mTela1Fragment = Tela1Fragment.newInstance()
+
+- Carregar o fragmento do container vazio
+trocarFragmento(mTela1Fragment) 
+
+- Cadastrar os eventos da bottom navigation para trocar de fragmento 
+mBinding.fragmentoBtmNavigation.setOnItemSelectedListener(::onSelectedBottomnavigationItem) 
