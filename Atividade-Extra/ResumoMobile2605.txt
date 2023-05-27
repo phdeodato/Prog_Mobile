@@ -1,0 +1,109 @@
+Resumo aula dia 26/05 
+- Servidor HTTP:
+1. Apache 
+2. Tomcat
+3. IIS
+4. Nginx 
+
+- Banco de dados relacionais 
+1. MySQL
+2. PostgreSQL 
+3. Oracle 
+
+- Banco de dados noSQL 
+1. Firebase 
+2. MongoDB 
+
+XML 
+- Representação de documentos semi-estruturados
+ 
+- Composto por elementos e atributos 
+
+REST
+- Usado para criação de web-services
+
+- Não mantém o estado 
+
+- Cada consulta é como se fosse a primeira 
+
+- Princípios 
+1. Cliente-Sevidor 
+2. Staless 
+3. Cacheable 
+4. Interface uniforme -> Padronizada 
+5. Sistema em camadas -> Organização do código 
+6. Código sob demanda 
+
+CLIENTE 
+- Fornece interação com o usuário 
+
+- Cliente magro e gordo 
+
+- Magro (apps de banco, claro, vivo, fgts)
+1. Uma única camada 
+2. Não apresenta código personalizado 
+3. Dependente do servidor 
+4. Utiliza navegador web 
+
+- Gordo (whatsapp é um exemplo)   
+1. Possue até três camadas 
+- Apresentação 
+- Negócios 
+- Acesso à dados 
+2. Comunicação entre cliente - servidor é baixa 
+
+APLICAÇÕES 
+- Nativo 
+1. Desenvolvido para a plataforma 
+2. Alto desempenho 
+3. Maior esforço de desenvolvimento 
+
+- Compile-to-native (React Native, Native Script, Flutter e Xamarin) 
+1. Ambiente tercerizado 
+2. Aplicação para diversas plataformas 
+3. Dificuldade de domínio de framework  
+
+- Híbrida (PhoneGap, Cordova, Sencha e Ionic) 
+1. Fácil entendimento para desenvolvimento web 
+2. Executa em webview 
+
+- Progressive Web App (PWA) HTML/CSS, React, Angular e Vue 
+1. Fácil desenvolvimento 
+2. Não é uma aplicação real 
+3. Executa em navegador web 
+4. Não acessa recursos do dispositivo 
+
+PROTOCOLOS 
+- Http 
+1. Protocolo para troca de mensagens web 
+
+- REST 
+1. Entidades = URL 
+2. Ações = Comandos HTTP (Get, post, delete, put)
+3. Sempre no plural 
+
+BOAS PRÁTICAS 
+1. Nomes no plural 
+2. Evitar palavras abstratas 
+
+Json
+1. JavaScript Objetc Notation 
+2. Compacto 
+3. Tipos explícitos 
+
+Blob 
+1. Raw 
+2. URL 
+3. Encoding Base64 
+
+CÓDIGOS DE ERROS 
+1. Utilizar códigos de erro http 
+- 1XX- Informativas 
+- 2XX - Sucesso 
+- 3XX - Redirecionamentos 
+- 4XX - Erro na resposta do cliente 
+- 5XX - Erro no servidor 
+
+
+
+
