@@ -1,0 +1,35 @@
+Resumo aula 12/05/23	 
+- Se atentar na organização dentro da hierarquia
+ 
+- @font/ -> Para utilizar uma fonte baixada fora do Android Studio 
+
+- Para acessar os compontentes de tela, pode usar os móbulos, são eles
+	1. Tradicional: findViewById (id) 
+	2. DataBinding: existem bibliotecas que fazem o trabalho de declaração automática dos componentes 
+	- Vantagens: economizar digitação de código, minimiza erros 
+	- Dagger: terceiros 
+	- DataBinding: incluído no Android 
+
+- Config do DataBinding 
+	1. Habilitar no gradle 
+	2. Modificar os arquivos de layout 
+	3. Substituir a chamada do SetContentView
+
+- Arquivo de layout sempre terá na raiz um filho que será uma View ou ViewGroup 
+
+- Tratamento de eventos: existem diferentes formas de cadastrar um evento em um compontente 
+- Sempre que termina em OnListener é um evento, todas as funções que estarão ali dentro serão executadas 
+- Os eventos são disparados pelos componenetes após o usuário interagir  
+- As funções para cadastro de evento começam com o prefixo <on> e terminam com <Listener>, é uma regra geral
+ 
+1. Via função lambda
+- Utilizado quando o evento não é reaproveitado e quando são poucas linhas de código 
+ 
+mBinding.componentes.setOnClickListener {
+	Toast.makeText(this, getText(R.string.componentes_btn_ola), Toast.LENGTH_SHORT).show()
+} 
+
+2. Via método 
+- Utilizado quando o evento tem a necessidade de ser reaproveitado e podem ser funções complexas 
+
+mBinding.componenteBtnClique.setOnClickListener()  
