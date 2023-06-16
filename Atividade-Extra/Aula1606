@@ -1,0 +1,291 @@
+Resumo aula dia 16/06/23 
+
+1) Arquivo Local 
+- Txt (.csv, .json) 
+- Dat (binário) 
+
+Vantagens: 
+- Funciona sem internet 
+- Mais rápido 
+- Fácil 
+
+Desvantagens: 
+- Tamanho do disco + memoria 
+- Leitura 
+- Relacionamento 
+- Atualização 
+
+2) Sqlite 
+Vantagens: 
+- Maior volume de dados 
+- Consultas customizadas 
+- Fácil inserir/atualizar/deletar 
+- Relacionamento complexo 
+- Tipos de dados 
+
+Desvantagens: 
+- Mais pesado 
+- Criação via código 
+- Escrever mais códigos 
+- Atualização de banco 
+
+3) Shared Preferences 
+Vantagens: 
+- Preferência 
+- Cache 
+- Fácil de usar 
+
+Desvantagens: 
+- Volume de dados 
+- Desviando funcionalidade 
+
+4) API (Firebase) 
+- Necessário o uso de internet 
+- Suporta grande quantidade de dados 
+- Utiliza pouco espaço do dispositivo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
